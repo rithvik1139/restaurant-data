@@ -125,6 +125,7 @@ app.use(
     graphiql: true,
   })
 );
+
 var port = 5500;
 app.listen(5500, () => console.log("Running Graphql on Port:" + port));
 
